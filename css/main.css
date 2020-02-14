@@ -1,0 +1,59 @@
+/* ==========================================================================
+   custom styles
+   ========================================================================== */
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:900i&display=swap');
+
+@media screen and (max-width: 768px) {
+   .jumbotron h1 {
+         font-size: 50px;
+   }
+}
+
+.header_container {
+
+}
+
+
+.header_title{
+   position: relative;
+   top:-30px;
+   font-family: 'Montserrat', sans-serif;      
+   text-align: center;     
+   font-size:120px;
+   letter-spacing:0.1em;
+   -webkit-text-fill-color: transparent;
+   -webkit-text-stroke-width: 3px;
+   -webkit-text-stroke-color: white;
+   text-shadow: 
+                  8px 8px #ff1f8f,
+                  20px 20px #000000;
+}
+
+.header_subtitle {
+
+
+   color: #fff;
+   font-size: 92px;
+   font-family: "ubuntu";
+   font-weight: 700;
+   font-family: "Josefin Sans", sans-serif;
+   background: linear-gradient(to right, #072122 10%, #15cae2 50%, #000405 60%);
+   background-size: auto auto;
+   background-size: 200% auto;
+   background-clip: text;
+   text-fill-color: transparent;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   animation: textclip 8s linear infinite;
+   display: inline-block;
+
+}
+
+@keyframes textclip {
+	to {
+		background-position: 200% center;
+	}
+}
